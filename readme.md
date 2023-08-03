@@ -1,41 +1,37 @@
 ## GIT COMMAND LINE NOTE
-### 1. Basic git commands
+#### 1. Basic git commands
 
-Copy project from git repository by using command line `git clone`
-> `git clone https://github.com/.../your-project.git`
+- [x] `git clone https://github.com/.../your-project.git`
+- [x] `git status`
+- [x] `git add file_name`
+- [x] `git commit -m "your message"`
+- [x] `git push` <code>OR<code> `git pull`
 
-The git status command displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git.
-> `git status`
-
-Add a change in the working directory to the staging area. 
-- [x] `git add` file-name
+#### 2. Git Add (staging area) commands
+- [x] `git add file-name`
 - [x]  `git add .`
 - [ ] `git add *`
 
-A Git commit is a snapshot of the hierarchy (Git tree) and the contents of the files (Git blob) in a Git repository.
-> `git commit -m "your message"`
+#### 3. Git checkout command
+- [x] `git checkout branch-name`
+- [x] `git checkout commit-id`
 
-Pushing is how you transfer commits from your local repository to a remote repo. 
-> `git push`
+#### 4. Git branch command
+- [x] `git branch -b your_branch_name`
+- [x] `git branch`
+- [x] `git branch -`
 
-The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content. 
-> `git pull`
+#### 5. Git merge command
+- [x] `git merge branch-name -m "your_message"`
+- [x] `git merge branch-name`
 
- Switches to a different branch
-> `git checkout branch-name`
-
- Switches to a different revision of commit id.
-> `git checkout commit-id`
-
-Create and move directly new branch
-> `git branch -b your_branch_name`
-
-To check we are on the good branch
-> `git branch -`
-
-Merge your branch into main branch
-> `git merge branch-name -m "your_message"`
-### 2. Remote existing project to github repository
+#### 6. Git commit command
+- [x] `git commit -m "your_message"`
+- [x] `git commit -a -m "your_message"`
+- [x] `git log`
+- [x] `git reflog`
+- [x] `git diff`
+#### 2. Remote existing project to github repository
 
 - [x] `git init` 
 - [x] `git remote add origin https://github.com/.../project.git`
@@ -43,13 +39,13 @@ Merge your branch into main branch
 - [x] `git commit -m "your message"` 
 - [x] `git push --set-upstream origin master`
 
-### 3. Git global Configuring
+#### 3. Git global Configuring
 - [x] `git config --global user.name "rady y"`
 - [x] `git config --global user.email "rady@gmail.com"`
 
 >Note: You can check your global configuration in your Windows environment:`C:\Users\YOUR_USER\.gitcofig`
 
-### 4. Github credentials
+#### 4. Windows credentials with GitHub
 When you start to use new GitHub account please modify your credentials if you have problem on push project.
 
 <img src="https://i.stack.imgur.com/NejcV.png">
