@@ -21,6 +21,20 @@ Pushing is how you transfer commits from your local repository to a remote repo.
 The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content. 
 > `git pull`
 
+ Switches to a different branch
+> `git checkout branch-name`
+
+ Switches to a different revision of commit id.
+> `git checkout commit-id`
+
+Create and move directly new branch
+> `git branch -b your_branch_name`
+
+To check we are on the good branch
+> `git branch -`
+
+Merge your branch into main branch
+> `git merge branch-name -m "your_message"`
 ### 2. Remote existing project to github repository
 
 - [x] `git init` 
