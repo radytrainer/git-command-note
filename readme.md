@@ -5,7 +5,7 @@
 - [x] `git status`
 - [x] `git add file_name`
 - [x] `git commit -m "your message"`
-- [x] `git push` <code>OR<code> `git pull`
+- [x] `git push` <code>OR</code> `git pull`
 
 #### 2. Git Add (staging area) commands
 - [x] `git add file-name`
