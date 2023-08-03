@@ -1,5 +1,5 @@
 ## GIT COMMAND LINE NOTE
-### 1. BASIC COMMAND LINE
+### 1. Basic git commands
 
 Copy project from git repository by using command line `git clone`
 > `git clone https://github.com/.../your-project.git`
@@ -21,10 +21,14 @@ Pushing is how you transfer commits from your local repository to a remote repo.
 The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content. 
 > `git pull`
 
-### 2. REMOTE EXISTING PROJECT TO GIT REPOSITORY
+### 2. Remote existing project to github repository
 
 - [x] `git init` 
 - [x] `git remote add origin https://github.com/.../project.git`
 - [x] `git add .`
 - [x] `git commit -m "your message"` 
 - [x] `git push --set-upstream origin master`
+
+### 3. Git global Configuring
+>- `git config --global user.name "rady y"`
+>- `git config --global user.email "rady@gmail.com"`
