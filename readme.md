@@ -30,5 +30,7 @@ The git pull command is used to fetch and download content from a remote reposit
 - [x] `git push --set-upstream origin master`
 
 ### 3. Git global Configuring
->- `git config --global user.name "rady y"`
->- `git config --global user.email "rady@gmail.com"`
+- [x] `git config --global user.name "rady y"`
+- [x] `git config --global user.email "rady@gmail.com"`
+
+>Note: You can configure in your Windows environment:`C:\Users\YOUR_USER\.gitcofig`
