@@ -33,4 +33,9 @@ The git pull command is used to fetch and download content from a remote reposit
 - [x] `git config --global user.name "rady y"`
 - [x] `git config --global user.email "rady@gmail.com"`
 
->Note: You can configure in your Windows environment:`C:\Users\YOUR_USER\.gitcofig`
+>Note: You can check your global configuration in your Windows environment:`C:\Users\YOUR_USER\.gitcofig`
+
+### 4. Github credentials
+When you start to use new GitHub account please modify your credentials if you have problem on push project.
+
+<img src="https://i.stack.imgur.com/NejcV.png">
