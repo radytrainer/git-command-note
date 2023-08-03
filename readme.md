@@ -24,7 +24,12 @@ The git pull command is used to fetch and download content from a remote reposit
 ### 2. REMOTE EXISTING PROJECT TO GIT REPOSITORY
 
 -[x] `git init` 
+
 -[x] `git remote add origin https://github.com/.../project.git`
+
 -[x] `git add .`
+
+
 -[x] `git commit -m "your message"` 
+
 -[x] `git push --set-upstream origin master`
